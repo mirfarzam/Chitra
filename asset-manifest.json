@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Chitra/static/css/main.8b26e17c.chunk.css",
+    "main.js": "/Chitra/static/js/main.a1133fbd.chunk.js",
+    "main.js.map": "/Chitra/static/js/main.a1133fbd.chunk.js.map",
+    "runtime-main.js": "/Chitra/static/js/runtime-main.ed3e56df.js",
+    "runtime-main.js.map": "/Chitra/static/js/runtime-main.ed3e56df.js.map",
+    "static/js/2.8c71736e.chunk.js": "/Chitra/static/js/2.8c71736e.chunk.js",
+    "static/js/2.8c71736e.chunk.js.map": "/Chitra/static/js/2.8c71736e.chunk.js.map",
+    "index.html": "/Chitra/index.html",
+    "precache-manifest.c40bb894ee98a7c51ae8fa22ad58ffea.js": "/Chitra/precache-manifest.c40bb894ee98a7c51ae8fa22ad58ffea.js",
+    "service-worker.js": "/Chitra/service-worker.js",
+    "static/css/main.8b26e17c.chunk.css.map": "/Chitra/static/css/main.8b26e17c.chunk.css.map",
+    "static/js/2.8c71736e.chunk.js.LICENSE.txt": "/Chitra/static/js/2.8c71736e.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/Chitra/static/media/dana-ultrabolditalic.b1751f6a.woff",
+    "static/media/logo.svg": "/Chitra/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed3e56df.js",
+    "static/js/2.8c71736e.chunk.js",
+    "static/css/main.8b26e17c.chunk.css",
+    "static/js/main.a1133fbd.chunk.js"
+  ]
+}
