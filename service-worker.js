@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Chitra/precache-manifest.c40bb894ee98a7c51ae8fa22ad58ffea.js"
+  "/Chitra/precache-manifest.640b8358525a728c79d61da430364a7e.js"
 );
 
 self.addEventListener('message', (event) => {
