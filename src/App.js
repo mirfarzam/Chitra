@@ -3,6 +3,12 @@ import logo from './logo.svg';
 import './Styles/fonts.css';
 import './Styles/App.css';
 
+import {increamentAction, decreamentAction} from './Actions/counterActions'
+import connect from "react-redux/es/connect/connect";
+import Submit from "./Components/formComponents/Submit";
+import TextInput from "./Components/formComponents/TextInput";
+import Checkbox from "./Components/formComponents/Checkbox";
+
 function App() {
   return (
     <div className="App">
@@ -30,16 +36,12 @@ function App() {
                 <div className={"row"}>
                     <form>
                         <div className={"col-sm-12"}>
-                            <label>ایمیل یا نام کاربری</label>
-                            <input type={"text"} placeholder={"nima@gmail.com"} className={"text-left placeholder-text-left"}/>
-                            <label>رمز عبور</label>
-                            <input type={"password"} placeholder={"حداقل ۸ کاراکتر"} className={"text-left"}/>
-                            <label className="checkBoxcontainer">
-                                <input type="checkbox"/>
-                                <span className="checkmark"/>
+                            <TextInput type={"usernameOrEmail"}/>
+                            <TextInput type={"password"}/>
+                            <Checkbox>
                                 مرا به خاطر بسپار
-                            </label>
-                            <input type={"submit"} value={"ورود"}/>
+                            </Checkbox>
+                            <Submit value={"ورود"}/>
                         </div>
                     </form>
                 </div>
@@ -54,5 +56,17 @@ function App() {
     </div>
   );
 }
+
+
+// const mapStateToProps = state =>({
+//     ...state
+// });
+//
+// const mapDispatchToProps = dispatch => ({
+//    addOne : () => dispatch(increamentAction),
+//    minusOne : () => dispatch(decreamentAction)
+// });
+//
+// export default connect(mapStateToProps, mapDispatchToProps)(App);
 
 export default App;
