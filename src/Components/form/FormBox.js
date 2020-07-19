@@ -29,7 +29,7 @@ class FormBox extends React.Component {
             {
                 model : "text",
                 type : "password",
-                metric : true
+                metric : false
             },
             {
                 model : "checkbox",

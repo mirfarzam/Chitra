@@ -48,12 +48,12 @@ class TextInput extends React.Component {
                 );
             case "password":
                 return (
-                    <section>
+                    <section metric={`${this.props.metric}`}>
                         <label for="password" >رمز عبور</label>
                         <input name={"password"} id="password" type={"password"} placeholder={"حداقل ۸ کاراکتر"} className={"text-left"}
                                onChange={this.onPasswordFieldChange.bind(this)}
                         />
-                        {this.props.metric &&
+                        {this.props.metric === "true" &&
                         <div>
                             <div className={"passwordMetric"} id="passwordMetric-1"/>
                             <div className={"passwordMetric"} id="passwordMetric-2"/>
