@@ -1,5 +1,5 @@
 import React from "react";
-import {decreamentAction, increamentAction} from "../../Actions/counterActions";
+import {decreamentAction, increamentAction} from "../../../Actions/counterActions";
 import connect from "react-redux/es/connect/connect";
 
 
@@ -11,7 +11,7 @@ class Submit extends React.Component {
     }
 
     render() {
-        return <input className={`${this.props.active ? "active" : ""}`} type={"submit"} value={`${this.props.value}`}/>;
+        return <input className={`${this.props.active ? "active" : ""}`} type={"submit"} value={`${this.props.value}`} disabled={true}/>;
     }
 
 }
