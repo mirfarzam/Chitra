@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Chitra/static/css/main.70e5c958.chunk.css",
+    "main.css": "/Chitra/static/css/main.fa55abc8.chunk.css",
     "main.js": "/Chitra/static/js/main.1a90a749.chunk.js",
     "main.js.map": "/Chitra/static/js/main.1a90a749.chunk.js.map",
     "runtime-main.js": "/Chitra/static/js/runtime-main.98116fda.js",
@@ -8,9 +8,9 @@
     "static/js/2.c655495d.chunk.js": "/Chitra/static/js/2.c655495d.chunk.js",
     "static/js/2.c655495d.chunk.js.map": "/Chitra/static/js/2.c655495d.chunk.js.map",
     "index.html": "/Chitra/index.html",
-    "precache-manifest.42938253c4d1e891f2b41bbda34a12ce.js": "/Chitra/precache-manifest.42938253c4d1e891f2b41bbda34a12ce.js",
+    "precache-manifest.80b6078f29b0260d88e1000d49fe8c5d.js": "/Chitra/precache-manifest.80b6078f29b0260d88e1000d49fe8c5d.js",
     "service-worker.js": "/Chitra/service-worker.js",
-    "static/css/main.70e5c958.chunk.css.map": "/Chitra/static/css/main.70e5c958.chunk.css.map",
+    "static/css/main.fa55abc8.chunk.css.map": "/Chitra/static/css/main.fa55abc8.chunk.css.map",
     "static/js/2.c655495d.chunk.js.LICENSE.txt": "/Chitra/static/js/2.c655495d.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/Chitra/static/media/dana-ultrabolditalic.b1751f6a.woff",
     "static/media/logo.svg": "/Chitra/static/media/logo.5d5d9eef.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.98116fda.js",
     "static/js/2.c655495d.chunk.js",
-    "static/css/main.70e5c958.chunk.css",
+    "static/css/main.fa55abc8.chunk.css",
     "static/js/main.1a90a749.chunk.js"
   ]
 }
