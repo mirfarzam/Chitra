@@ -9,7 +9,11 @@ class Form extends React.Component {
     constructor(props) {
         super(props);
         this.props = props;
+        this.state = {
+            sumbitDisable: true
+        }
     }
+
 
     static defaultProps = {
         structure : [
@@ -40,6 +44,11 @@ class Form extends React.Component {
             value: value,
             validation : validation
         });
+        if(validation) {
+            this.setState({sumbitDisable: false})
+        } else {
+            this.setState({sumbitDisable: true})
+        }
     }
 
     render() {
@@ -62,12 +71,11 @@ class Form extends React.Component {
                     break;
                 case "submit":
                     output.push(
-                        <Submit value={`${element.value}`} />
+                        <Submit value={`${element.value}`} disable={`${this.state.sumbitDisable}`}/>
                     );
                     break;
             }
         });
-        console.log(output);
         return output;
     }
 }

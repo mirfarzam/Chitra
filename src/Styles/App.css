@@ -176,11 +176,14 @@ form input[type=submit] {
   width: 350px;
   height: 42px;
   border-radius: 4px;
-  background-color: rgba(59, 54, 255, 0.45);
+  background-color: #3b36ff;
   display: block;
   border: none;
   color: white;
   margin-top: 26px;
+}
+input[type=submit][disabled]{
+  background-color: rgba(59, 54, 255, 0.45);
 }
 
 .formBox a.altFormBox {
@@ -295,3 +298,4 @@ form input[type=submit] {
 .passwordMetric.valid {
   background-color: #10deb6;
 }
+

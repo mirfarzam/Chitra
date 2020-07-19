@@ -11,7 +11,11 @@ class Submit extends React.Component {
     }
 
     render() {
-        return <input className={`${this.props.active ? "active" : ""}`} type={"submit"} value={`${this.props.value}`} disabled={true}/>;
+        return <input className={`${this.props.active ? "active" : ""}`} type={"submit"} value={`${this.props.value}`}
+                      disabled={ this.props.disable === "true" ?
+                           true :
+                          undefined}
+        />;
     }
 
 }

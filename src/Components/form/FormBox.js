@@ -12,6 +12,14 @@ class FormBox extends React.Component {
         this.props = props
     }
 
+    static checkboxLabel() {
+        return(<section>
+            قبل از ثبت نام
+            <a href={"#"}> قوانین و مقررات </a>
+            را مطالعه کردم و آنها را می‌پذیرم.
+        </section>);
+    }
+
     static defaultProps = {
         title : "ثبت نام",
         description : "برای ثبت نام اطلاعات خود را وارد کنید",
@@ -29,11 +37,11 @@ class FormBox extends React.Component {
             {
                 model : "text",
                 type : "password",
-                metric : false
+                metric : true
             },
             {
                 model : "checkbox",
-                children : "قبل از ثبت نام قوانین و مقررات را مطالعه کردم و آنها را می‌پذیرم."
+                children : this.checkboxLabel()
             },
             {
                 model : "submit",
@@ -88,6 +96,7 @@ class FormBox extends React.Component {
             </div>
         );
     }
+
 }
 
 
