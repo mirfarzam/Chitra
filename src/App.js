@@ -1,21 +1,35 @@
-import React from 'react';
 import logo from './logo.svg';
 import './Styles/fonts.css';
 import './Styles/App.css';
-
-import {increamentAction, decreamentAction} from './Actions/counterActions'
-import connect from "react-redux/es/connect/connect";
-import Submit from "./Components/form/formComponents/Submit";
-import TextInput from "./Components/form/formComponents/TextInput";
-import Checkbox from "./Components/form/formComponents/Checkbox";
-import FormBox from "./Components/form/FormBox";
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+import SignUp from "./Pages/Authentication/SignUp";
+import SignIn from "./Pages/Authentication/SignIn";
+import PasswordRecovery from "./Pages/Authentication/PasswordRecovery";
 
 function App() {
   return (
     <div className="App">
-      <div className={"fullbox bsefid gocenter"}>
-          <FormBox/>
-      </div>
+        <Router>
+            <div>
+                <Switch>
+                    <Route exact path="/signup">
+                        <SignUp />
+                    </Route>
+                    <Route path="/signin">
+                        <SignIn />
+                    </Route>
+                    <Route path="/recovery-password">
+                        <PasswordRecovery />
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
     </div>
   );
 }

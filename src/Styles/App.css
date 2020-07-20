@@ -48,7 +48,6 @@ textarea, select, input, button { outline: none; }
   background-color: #ffffff;
   text-align: right;
   padding: 40px;
-  margin-top: 150px;
 }
 
 .formBox .rowForm {
@@ -70,7 +69,6 @@ textarea, select, input, button { outline: none; }
   color: #253858;
 }
 .formBox .sisFormBox {
-  width: 55px;
   height: 21px;
   font-family: Dana;
   font-size: 14px;
@@ -85,7 +83,6 @@ textarea, select, input, button { outline: none; }
   padding-top: 17px;
 }
 .description {
-  width: 275px;
   height: 24px;
   font-family: Dana;
   font-size: 16px;
@@ -188,7 +185,6 @@ input[type=submit][disabled]{
 
 .formBox a.altFormBox {
   display: block;
-  width: 148px;
   height: 21px;
   font-size: 14px;
   font-weight: 500;
@@ -196,7 +192,7 @@ input[type=submit][disabled]{
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: right;
+  text-align: center;
   color: #3b36ff !important;
   margin: 0 auto;
   margin-top: 29px;
@@ -227,7 +223,7 @@ input[type=submit][disabled]{
   padding-right: 20px;
   width: auto;
   margin-bottom: 0;
-  margin-top: 35px;
+  margin-top: 25px;
   height: fit-content;
 }
 

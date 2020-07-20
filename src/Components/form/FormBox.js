@@ -55,15 +55,15 @@ class FormBox extends React.Component {
             <div className={"formBox"}>
                 <div className={"container"}>
                     <div className={"row"}>
-                        <div className={"col-sm-6"}>
+                        <div className={"col-sm-8"}>
                             <h4 className={"title"}>
                                 {this.props.title}
                             </h4>
                         </div>
                         {this.props.sister != null &&
-                        <div className={"col-sm-6"}>
-                            <a className={"sisFormBox"} href={"#"}>
-                                {this.props.sister}
+                        <div className={"col-sm-4"}>
+                            <a className={"sisFormBox"} href={`${this.props.sister.link}`}>
+                                {this.props.sister.title}
                                 <span></span>
                             </a>
                         </div>
@@ -86,8 +86,8 @@ class FormBox extends React.Component {
                     {this.props.alternative != null &&
                     <div className={"row"}>
                         <div className={"col-sm-12 text-center"}>
-                            <a className={"altFormBox"} href={"#"}>
-                                {this.props.alternative}
+                            <a className={"altFormBox"} href={`${this.props.alternative.link}`}>
+                                {this.props.alternative.title}
                             </a>
                         </div>
                     </div>

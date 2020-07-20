@@ -11,7 +11,7 @@ class Checkbox extends React.Component {
             <label className="checkBoxcontainer">
                 <input type="checkbox"/>
                 <span className="checkmark"/>
-                {this.props.children}
+                {this.props.children()}
             </label>
         );
     }
