@@ -205,7 +205,6 @@ input[type=submit][disabled]{
 .checkBoxcontainer {
   display: block;
   position: relative;
-  padding-left: 35px;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
