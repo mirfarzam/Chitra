@@ -18,6 +18,7 @@ textarea, select, input, button { outline: none; }
   width: 100vw;
   max-width: 100%;
   min-height: 100vh;
+  position: relative;
 }
 
 .fullbox {

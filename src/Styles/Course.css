@@ -1,0 +1,140 @@
+.courseTitle {
+    font-size: 38px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #363434;
+}
+
+.courseLecturer {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.courseLecturer .courseLecturerImage {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-left: 17px;
+}
+.courseLecturer .courseLecturerName {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6c798f;
+    margin-left: 6px;
+}
+
+.courseLecturer .courseLecturerCareer {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #344563;
+}
+.videoRow {
+    margin-top: 22px;
+}
+.courseVideo {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    margin-top: 31px;
+}
+
+.descriptionNavigator {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px 0 rgba(107, 102, 151, 0.14);
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.descriptionBody {
+    margin-top: 34px;;
+}
+
+.descriptionNavigator .col ul {
+    width: 100%;
+    margin: 0 auto;
+    list-style-type:none;
+}
+.descriptionNavigator .col ul li {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6c798f;
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    width: fit-content;
+    padding: 2px;
+}
+
+.descriptionNavigator .col ul li.active {
+    color: #344563;
+}
+
+.underline {
+   width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.underline .line {
+    height: 2px;
+    border-radius: 10%;
+    background-color:  black;
+}
+.underline.pink .line {
+    background-color: #d20f6c;
+}
+
+.underline .line.bigLine {
+    width: 73%;
+    float: left;
+}
+.underline .line.smallLine {
+    width: 14%;
+    float: right;
+}
+
+
+.aboutCourseTitle {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    color: #344563;
+    text-align: right;
+}
+.aboutCourseBody {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #505f79;
+}
+

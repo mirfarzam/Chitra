@@ -11,6 +11,7 @@ import {
 import SignUp from "./Pages/Authentication/SignUp";
 import SignIn from "./Pages/Authentication/SignIn";
 import PasswordRecovery from "./Pages/Authentication/PasswordRecovery";
+import Overview from './Pages/Course/Overview'
 
 function App() {
   return (
@@ -18,14 +19,17 @@ function App() {
         <Router>
             <div>
                 <Switch>
-                    <Route exact path="/signup">
+                    <Route exact path="/Chitra/signup">
                         <SignUp />
                     </Route>
-                    <Route path="/signin">
+                    <Route path="/Chitra/signin">
                         <SignIn />
                     </Route>
-                    <Route path="/recovery-password">
+                    <Route path="/Chitra/recovery-password">
                         <PasswordRecovery />
+                    </Route>
+                    <Route path="/Chitra">
+                        <Overview />
                     </Route>
                 </Switch>
             </div>
