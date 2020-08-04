@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e167e2946258b8a29e0f991126a4e86d",
+    "revision": "f6c77d4cc8186fcef9cae89ca127a755",
     "url": "/Chitra/index.html"
   },
   {
-    "revision": "077f2b2208ab1d631e3d",
-    "url": "/Chitra/static/css/main.15545e42.chunk.css"
+    "revision": "2c627985cb9866286b94",
+    "url": "/Chitra/static/css/main.65e637b3.chunk.css"
   },
   {
-    "revision": "5b83444c7442bf6758db",
-    "url": "/Chitra/static/js/2.e748dabf.chunk.js"
+    "revision": "2838d5435d85e6d725b2",
+    "url": "/Chitra/static/js/2.0c6ff948.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Chitra/static/js/2.e748dabf.chunk.js.LICENSE.txt"
+    "url": "/Chitra/static/js/2.0c6ff948.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "077f2b2208ab1d631e3d",
-    "url": "/Chitra/static/js/main.3c09830f.chunk.js"
+    "revision": "2c627985cb9866286b94",
+    "url": "/Chitra/static/js/main.45666063.chunk.js"
   },
   {
     "revision": "3116cc98d816d6213fd6",
