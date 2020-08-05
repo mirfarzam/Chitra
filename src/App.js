@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './Styles/fonts.css';
 import './Styles/App.css';
+import './Styles/Course.css';
 import React from "react";
 import {
     BrowserRouter as Router,

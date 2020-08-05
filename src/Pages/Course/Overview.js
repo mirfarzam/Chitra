@@ -1,16 +1,121 @@
 import React from 'react'
-import '../../Styles/Course.css';
-
 
 
 export default function Overview() {
     return (
         <section>
-        <div className={"container"}></div>
+
+            <nav className="navbar  navbar-expand-lg navbar-light ">
+                <div className={"container"}>
+                    <div className={"row navRow d-flex align-items-center"}>
+                        <div className={"col navCol"}>
+
+                            <a className="navbar-brand navbarTitle" href="#">
+                                <img src="/Chitra/teacher.png"/>
+                                <h1>لوگو</h1>
+                            </a>
+
+
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon"></span>
+                            </button>
+
+
+                            <div className="collapse navbar-collapse navItems" id="navbarNavDropdown">
+                                <ul className="navbar-nav">
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">همه دوره‌ها</a>
+                                    </li>
+                                    <li className="nav-item dropdown">
+                                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            بیشتر
+                                            <span></span>
+                                        </a>
+                                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a className="dropdown-item" href="#">Action</a>
+                                            <a className="dropdown-item" href="#">Another action</a>
+                                            <a className="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a className={"d-flex justify-content-center align-items-center button noselect"}
+                                    href={"/Chitra/signin"}>
+                                    ورود | ثبت‌نام
+                                </a>
+                                <form>
+                                    <input type={"text"} placeholder={"دوره مورد نظرتان را جستجو کنید"} className={""}/>
+                                </form>
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
             <div className={"container"}>
                 <div className={"row"}>
-                    <div className={"col-lg-3 col-md-3 col-sm-12"}></div>
-                    <div className={"col-lg-9 col-md-9 col-sm-12"}>
+
+                    <div className={"col-lg-4 col-md-4 col-sm-12 sidebar"}>
+
+                        <div className={"row coursePrice d-flex align-items-center"}>
+                                <div className={"col-sm-4 coursePriceBefore"}>۴۰۰,۰۰۰ <span>تومان</span></div>
+                                <div className={"col-sm-2 coursePriceDiscount"}>۲۰٪</div>
+                                <div className={"col-sm-6 coursePriceMain"}>۳۴۵,۰۰۰ <span>تومان</span></div>
+                        </div>
+
+                        <div className={"row"}>
+                            <div className={"col"}>
+                                <a className={"d-flex justify-content-center align-items-center button noselect full-width"}>
+                                    خرید این دوره
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className={"row"}>
+                            <div className={"col"}>
+                                <div className={"courseDetail"}>
+                                    <ul>
+                                        <li><i className="uil uil-heart"></i>۱۰۰٪ بازخورد مثبت (۳۸)</li>
+                                        <li><i className="uil uil-users-alt"></i>۲۱۲۱ شرکت‌کننده</li>
+                                        <li><i className="uil uil-video"></i>۲۳ ویدیو (۲۳ ساعت و ۴۵ دقیقه)</li>
+                                        <li><i className="uil uil-file-alt"></i>۳ مقاله</li>
+                                        <li><i className="uil uil-file-download"></i>۷۰ فایل قابل دانلود</li>
+                                        <li><i className="uil uil-layer-group"></i>سطح حرفه‌ای</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className={"row"}>
+                            <div className={"col"}>
+                                <div className={"courseShareLinks d-flex justify-content-between align-items-center noselect"}>
+                                    <div className={"courseShareLinksTitle"}>
+                                        اشتراک‌گذاری
+                                    </div>
+                                    <div className={"courseShareLinksLinks"}>
+                                        <ul>
+                                            <li><a><i className="uil uil-telegram"></i></a></li>
+                                            <li><a><i className="uil uil-linkedin"></i></a></li>
+                                            <li><a><i className="uil uil-facebook"></i></a></li>
+                                            <li><a><i className="uil uil-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div className={"col-lg-8 col-md-8 col-sm-12"}>
                         <div className={"row"}>
                             <div className={"col"}>
                                 <div className={"courseTitle"}>
@@ -43,15 +148,36 @@ export default function Overview() {
                                     <ul className={"d-flex justify-content-around"}>
                                         <li className={"active"}>
                                             مرور دوره
-                                            <div className={"underline pink show"}>
+                                            <div className={"underline pink"}>
                                                 <div className={"line bigLine"}/>
                                                 <div className={"line smallLine"}/>
                                             </div>
                                         </li>
-                                        <li>درباره مدرس</li>
-                                        <li>سرفصل دوره</li>
-                                        <li>سوالات متداول</li>
-                                        <li>نظرات کاربران</li>
+                                        <li>
+                                            درباره مدرس
+                                            <div className={"underline pink"}>
+                                                <div className={"line bigLine"}/>
+                                                <div className={"line smallLine"}/>
+                                            </div>
+                                        </li>
+                                        <li>سرفصل دوره
+                                            <div className={"underline pink"}>
+                                                <div className={"line bigLine"}/>
+                                                <div className={"line smallLine"}/>
+                                            </div>
+                                        </li>
+                                        <li>سوالات متداول
+                                            <div className={"underline pink"}>
+                                                <div className={"line bigLine"}/>
+                                                <div className={"line smallLine"}/>
+                                            </div>
+                                        </li>
+                                        <li>نظرات کاربران
+                                            <div className={"underline pink"}>
+                                                <div className={"line bigLine"}/>
+                                                <div className={"line smallLine"}/>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -67,6 +193,7 @@ export default function Overview() {
                                         <p>
                                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیستری را برای طراحان رایانه ای و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات است.
                                         </p>
+                                        <hr/>
                                     </div>
                                 </div>
                                 </div>
