@@ -1,4 +1,5 @@
 import React from 'react'
+import VideoPlayer from "../../Components/form/VideoPlayer";
 
 
 export default function Overview() {
@@ -135,10 +136,7 @@ export default function Overview() {
                         </div>
                         <div className={"row videoRow"}>
                             <div className={"col"}>
-                                <video className={"courseVideo"} width="320" height="240" controls>
-                                    <source src="/Chitra/videos/overview.mp4" type="video/mp4" />
-                                            مرورگر شما قادر به پخش ویدیو نمی‌باشد
-                                </video>
+                                <VideoPlayer />
                             </div>
                         </div>
                         <div className={"row description"}>
