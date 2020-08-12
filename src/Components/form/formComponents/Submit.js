@@ -1,13 +1,10 @@
 import React from "react";
-import {decreamentAction, increamentAction} from "../../../Actions/counterActions";
-import connect from "react-redux/es/connect/connect";
 
 
-class Submit extends React.Component {
+export default class Submit extends React.Component {
     constructor (props) {
         super(props) ;
         this.props = props;
-
     }
 
     render() {
@@ -19,20 +16,3 @@ class Submit extends React.Component {
     }
 
 }
-
-
-function mapStateToProps(state, ownProps) {
-    return  {
-       active : state.form.submit
-    }
-}
-
-// const mapDispatchToProps = dispatch => ({
-//     addOne : () => dispatch(increamentAction),
-//     minusOne : () => dispatch(decreamentAction)
-// });
-
-export default connect(
-    mapStateToProps,
-    null
-)(Submit);

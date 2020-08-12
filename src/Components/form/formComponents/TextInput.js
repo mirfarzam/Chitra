@@ -69,10 +69,4 @@ class TextInput extends React.Component {
     }
 }
 
-// const mapDispatchToProps = dispatch => ({
-//    addOne : () => dispatch(increamentAction),
-//    minusOne : () => dispatch(decreamentAction)
-// });
-
-
 export default TextInput;

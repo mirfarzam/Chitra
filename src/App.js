@@ -20,7 +20,7 @@ function App() {
         <Router>
             <div>
                 <Switch>
-                    <Route exact path="/Chitra/signup">
+                    <Route exact path="/Chitra#signup">
                         <SignUp />
                     </Route>
                     <Route path="/Chitra/signin">
